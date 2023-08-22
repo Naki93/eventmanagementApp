@@ -1,0 +1,47 @@
+/* HomePage.css */
+
+
+.log{
+  margin-right: 10px;
+}
+
+.about{
+text-align: center;
+font-style: italic;
+  }
+
+.about-content {
+  display: flex;
+  background-color: white;
+  align-items: center;
+  padding-top: 40px;
+      
+    }
+
+.background{
+background-color: black;
+color: white;
+margin: 0;
+padding: 0;
+}
+    
+
+.profile-image {
+  width: 520px;
+  height: auto;
+  margin-left: 90px;
+    }
+
+  
+
+.bold-text {
+font-weight: normal;
+font-size: 22px; /* Adjust the font size as needed */
+margin-bottom: 10px;
+}
+
+.text-content {
+max-width: 600px;
+margin-left: 20px
+      
+}

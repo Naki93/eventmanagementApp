@@ -1,0 +1,72 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders RegistrationForm component correctly 1`] = `
+<div>
+  <div
+    class="container d-flex justify-content-center align-items-center vh-100"
+  >
+    <form
+      class="col-md-6 bg-dark text-light p-4 rounded"
+    >
+      <h2
+        class="mb-4"
+      >
+        Registration Form
+      </h2>
+      <div
+        class="mb-3"
+      >
+        <label
+          class="form-label"
+          for="username"
+        >
+          Username:
+        </label>
+        <input
+          class="form-control"
+          id="username"
+          type="text"
+          value=""
+        />
+      </div>
+      <div
+        class="mb-3"
+      >
+        <label
+          class="form-label"
+          for="password"
+        >
+          Password:
+        </label>
+        <input
+          class="form-control "
+          id="password"
+          type="password"
+          value=""
+        />
+      </div>
+      <div
+        class="mb-3 form-check"
+      >
+        <input
+          class="form-check-input"
+          id="isAdmin"
+          type="checkbox"
+        />
+        <label
+          class="form-check-label"
+          for="isAdmin"
+        >
+          Admin
+        </label>
+      </div>
+      <button
+        class="btn btn-primary"
+        type="submit"
+      >
+        Register
+      </button>
+    </form>
+  </div>
+</div>
+`;

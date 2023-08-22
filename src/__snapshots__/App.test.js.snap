@@ -1,0 +1,90 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders App component correctly 1`] = `
+<div>
+  <div
+    class="App"
+  >
+    <div
+      class="home-page"
+    >
+      <nav
+        class="navbar navbar-dark bg-dark"
+      >
+        <div
+          class="container"
+        >
+          <a
+            class="navbar-brand logo"
+            href="#"
+          >
+            Eventify
+          </a>
+          <span
+            class=""
+          >
+            Your Go-To Event Platform
+          </span>
+          <div
+            class="login-signup"
+          >
+            <a
+              class="btn btn-primary "
+              href="/login"
+            >
+              Login
+            </a>
+            <a
+              class="btn btn-warning "
+              href="/register"
+            >
+              Sign Up
+            </a>
+          </div>
+        </div>
+      </nav>
+      <div
+        class="about "
+      >
+        <div
+          class="about-content"
+        >
+          <div
+            class="text-content"
+          >
+            <div
+              class="left-side"
+            >
+              <h1>
+                Eventify is your go-to platform for managing and discovering upcoming events.
+              </h1>
+              <p>
+                Whether you're a conference center looking to showcase your events or an attendee eager to explore exciting gatherings, Eventify has you covered.
+              </p>
+              <p>
+                <strong>
+                  Effortless Event Registration Seamless Event Management Enhanced Event Visibility
+                </strong>
+              </p>
+            </div>
+          </div>
+          <div
+            class=" "
+          >
+            <div
+              class="right-side"
+            >
+              <img
+                alt="Event"
+                class="profile-image"
+                src="transparent.png"
+                width="600px"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
