@@ -63,6 +63,58 @@ The Event Management System's architecture consists of several interconnected co
 
 - **Customization:** While Bootstrap provides default styles, I can customize the theme to match my application's branding.
 
+### Event Management System - System Requirements Specification
+### Introduction
+The Event Management System is a web application designed to facilitate event organization and management. It allows administrators to create, edit, and manage events, while users can view event details for upcoming events. The application aims to simplify event coordination and provide a user-friendly experience for both administrators and users.
+
+### Target Users
+Administrators: Responsible for creating, editing, and managing events. They benefit from efficient event management tools.
+Users: Individuals interested in attending events. They can view event details and benefit from obtaining easy access to upcoming events.
+User Stories
+As an administrator, I want to:
+
+Create new events, specifying details such as title, date, time, location, and description.
+Edit event details, including changing event timings, locations, and descriptions.
+Delete events that have been canceled or are no longer relevant.
+As a user, I want to:
+
+View a list of upcoming events along with their details and status.
+View events based on their status, such as upcoming, postponed, canceled.
+### Benefits
+For Administrators:
+
+Streamlined event management
+Easy event creation and modification
+Efficient cancellation handling
+For Users:
+
+Clear event information
+Visibility into event status
+Differentiators
+While there are various event management applications available, our Event Management System differentiates itself in the following ways:
+
+Simplicity: The application focuses on simplicity, making it easy for administrators to manage events and users to view them.
+User Experience: Intuitive interfaces provide a seamless experience for both administrators and users.
+Status: Users can see events based on their status, allowing them to view which events are upcoming, postponed, or canceled.
+Efficient Cancellation Handling: Administrators can efficiently manage canceled events, keeping users informed.
+Functional Requirements
+User Registration and Authentication
+Admin Authentication and Role Management
+Event Creation, Editing, and Deletion
+Event Status Management (Admin)
+Event Listing (User)
+Event Details View (User)
+User-friendly Dashboard (Admin)
+CRUD Operations for Events (Admin)
+Non-Functional Requirements
+Security: User data and event information must be stored securely using encryption techniques.
+Performance: The application should be responsive and handle concurrent users without significant performance degradation.
+Usability: User interfaces must be user-friendly, ensuring easy navigation and interaction.
+Scalability: The application should handle increasing numbers of events and users gracefully.
+Accessibility: The application should be accessible to users with disabilities in compliance with accessibility standards.
+Conclusion
+The Event Management System offers a user-friendly and efficient solution for event creation and management. Its simplicity, user experience, and status filtering feature set it apart from existing event management software.
+
 
 ## How to Use the App
 
@@ -123,7 +175,8 @@ Running the App
 Start the Backend Server:
 
 npm start --prefix backend
-The backend server will run on port 5000 by default. To change the port, modify it in the index.js file inside the backend folder.
+The backend server will run on port 5000 by default. To change the port, modify it in the server.js file inside the backend folder.
+This will also connect you to the mongo database.
 
 Start the Frontend Development Server:
 
@@ -140,7 +193,7 @@ The application includes automated tests to ensure its functionality. To run the
 Run Backend Tests:
 
 npm test --prefix backend
-The tests use Jest and Supertest for testing the API endpoints.
+The tests use Jest, mongoose and Supertest for testing the API endpoints.
 
 Run Frontend Tests:
 
@@ -156,16 +209,12 @@ This app uses environment variables to manage sensitive information and configur
 Backend .env File
 The backend .env file, located in the backend folder, contains configuration settings for the backend server, such as the server port and any API keys or secrets needed for external services.
 
-For security reasons, the .env file is not included in the version control system (e.g., Git) to prevent sensitive information from being exposed publicly. Instead, it is added to the .gitignore file, so it won't be pushed to the repository.
-
 You can create your own .env file in the backend folder and include the necessary environment variables for your app. Here's an example of how it might look:
 
 PORT=5000
 API_KEY=my_secret_api_key
 Frontend .env File
 The frontend .env file, located in the frontend folder, contains configuration settings specific to the frontend, such as the API base URL.
-
-Similar to the backend, the frontend .env file is also not included in version control to protect sensitive information.
 
 Create your own .env file in the frontend folder and add the required environment variables. Here's an example:
 
@@ -176,7 +225,7 @@ Proper error handling is implemented to handle and log errors securely without r
 ### CORS and Helmet Middleware
 The backend server uses CORS middleware to restrict cross-origin requests.
 The backend server uses Helmet middleware to set various HTTP headers, enhancing security.
-MongoDB URI
+### MongoDB URI
 Eventify uses MongoDB to store event data. To configure the MongoDB URI:
 
 Create a .env file in the server directory:
@@ -185,7 +234,7 @@ Open the .env file and add your MongoDB URI:
 
 MONGO_URI=your_mongodb_uri_here
 
-Deployment
+### Deployment
 Separate Deployment
 For larger applications or improved scalability, I have deployed the backend and frontend separately. The backend serves as an API server, and the frontend is a standalone application that communicates with the API.
 
