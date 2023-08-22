@@ -65,16 +65,16 @@ The Event Management System's architecture consists of several interconnected co
 
 - **Customization:** While Bootstrap provides default styles, I can customize the theme to match my application's branding.
 
-# Event Management System - System Requirements Specification
+## Event Management System - System Requirements Specification
 
-## Introduction
+### Introduction
 The Event Management System is a web application designed to facilitate event organization and management. It allows administrators to create, edit, and manage events, while users can view event details for upcoming events. The application aims to simplify event coordination and provide a user-friendly experience for both administrators and users.
 
-## Target Users
+### Target Users
 - **Administrators:** Responsible for creating, editing, and managing events. They benefit from efficient event management tools.
 - **Users:** Individuals interested in attending events. They can view event details and benefit from obtaining easy access to upcoming events.
 
-## User Stories
+### User Stories
 As an administrator, I want to:
 - Create new events, specifying details such as title, date, time, location, and description.
 - Edit event details, including changing event timings, locations, and descriptions.
@@ -84,7 +84,7 @@ As a user, I want to:
 - View a list of upcoming events along with their details and status.
 - View events based on their status, such as upcoming, postponed, canceled.
 
-## Benefits
+### Benefits
 **For Administrators:**
 - Streamlined event management
 - Easy event creation and modification
