@@ -130,19 +130,19 @@ A traditional ticket booking platform, like "TicketMaster," focuses primarily on
 
 **Differences:**
 
-1. **Scope:** Your Event Management System extends beyond ticket sales to encompass event creation, management, and user engagement. It provides a comprehensive solution for event organizers and attendees.
+1. **Scope:** My Event Management System extends beyond ticket sales to encompass event creation, management, and user engagement. It provides a comprehensive solution for event organizers and attendees.
 
-2. **Functionality:** While a ticket booking platform primarily focuses on ticket purchase transactions, your system offers a broader range of functionalities, including event creation, registration, user authentication, and management.
+2. **Functionality:** While a ticket booking platform primarily focuses on ticket purchase transactions, my system offers a broader range of functionalities, including event creation,  user authentication, and management.
 
-3. **User Base:** Ticket booking platforms primarily target event attendees interested in purchasing tickets. In contrast, your system caters to event organizers (administrators) and attendees, offering distinct user experiences and features.
+3. **User Base:** Ticket booking platforms primarily target event attendees interested in purchasing tickets. In contrast, my system caters to event organizers (administrators) and attendees, offering distinct user experiences and features.
 
-4. **Data Handling:** Ticket booking platforms manage ticket inventory and sales data. Your system handles event data, user profiles, and the organization of events, requiring a more extensive database schema and data processing capabilities.
+4. **Data Handling:** Ticket booking platforms manage ticket inventory and sales data. My system handles event data, user profiles, and the organization of events, requiring a more extensive database schema and data processing capabilities.
 
-5. **Customization:** Your system allows event organizers to customize event details, such as descriptions, dates, and locations, providing flexibility and control over event promotion.
+5. **Customization:** My system allows event organizers to customize event details, such as descriptions, dates, and locations, providing flexibility and control over event promotion.
 
-6. **Security:** Your system emphasizes user data protection with JWT-based authentication and ensures event data security through access controls and encryption mechanisms.
+6. **Security:** My system emphasizes user data protection with JWT-based authentication and ensures event data security through access controls and encryption mechanisms.
 
-In summary, while ticket booking platforms specialize in ticket sales, your Event Management System offers a broader spectrum of features to manage and promote events, making it a versatile solution for event organizers and attendees.
+In summary, while ticket booking platforms specialize in ticket sales, my Event Management System offers a broader spectrum of features to manage and promote events, making it a versatile solution for event organizers and attendees.
 
 
 ## Functional Requirements
